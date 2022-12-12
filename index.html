@@ -10,7 +10,45 @@
     <title>Registration</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="title">Registration</div>
+        <form action="">
+            <div class="userdeatails">
+                <div class="input-box">
+                    <span class="details">Name</span>
+                    <input type="text" placeholder="Enter your Nme" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone No</span>
+                    <input type="text" placeholder="Enter your Nme" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">E-Mail ID</span>
+                    <input type="text" placeholder="Enter your Nme" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Location</span>
+                    <input type="text" placeholder="Enter your Nme" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">I am currently doing</span>
+                    <select id="currentlydoing" name="currentlydoing">
+                        <option value="11">11th HSE</option>
+                        <option value="12">12th HSE</option>
+                        <option value="UG">Under Graduate</option>
+                        <option value="PG">Post Graduate</option>
+                      </select>
+                </div>
+                <div class="input-box">
+                    <span class="details">My Age</span>
+                    <input type="number" id="age" name="age" min="18" max="25">
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
 </body>
     <!-- Link JS -->
     <script src="./assets/script.js"></script>
